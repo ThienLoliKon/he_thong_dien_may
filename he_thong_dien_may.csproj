@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="ReaLTaiizor, Version=3.8.1.3, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ReaLTaiizor.3.8.1.3\lib\net48\ReaLTaiizor.dll</HintPath>
@@ -89,6 +92,11 @@
     <Compile Include="KhuVuc.Designer.cs">
       <DependentUpon>KhuVuc.cs</DependentUpon>
     </Compile>
+    <Compile Include="LichSuGiaoDichCuaKhachHang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LichSuGiaoDichCuaKhachHang.rpt</DependentUpon>
+    </Compile>
     <Compile Include="PhieuNhapKho.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +123,12 @@
     <Compile Include="SanPhamTrongKhoTrong.Designer.cs">
       <DependentUpon>SanPhamTrongKhoTrong.cs</DependentUpon>
     </Compile>
+    <Compile Include="TongSPTrongChiNhanh.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TongSPTrongChiNhanh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="XepHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +153,10 @@
     <EmbeddedResource Include="KhuVuc.resx">
       <DependentUpon>KhuVuc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LichSuGiaoDichCuaKhachHang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LichSuGiaoDichCuaKhachHang.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="PhieuNhapKho.resx">
       <DependentUpon>PhieuNhapKho.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +178,10 @@
     <EmbeddedResource Include="SanPhamTrongKhoTrong.resx">
       <DependentUpon>SanPhamTrongKhoTrong.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TongSPTrongChiNhanh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TongSPTrongChiNhanh.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="XepHang.resx">
       <DependentUpon>XepHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +198,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
