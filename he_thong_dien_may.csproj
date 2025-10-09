@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="ReaLTaiizor, Version=3.8.1.3, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ReaLTaiizor.3.8.1.3\lib\net48\ReaLTaiizor.dll</HintPath>
@@ -58,6 +61,11 @@
     </Compile>
     <Compile Include="a.Designer.cs">
       <DependentUpon>a.cs</DependentUpon>
+    <Compile Include="ChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiNhanh.Designer.cs">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -113,12 +121,75 @@
     <Compile Include="frmSanPhamLoaiHang.Designer.cs">
       <DependentUpon>frmSanPhamLoaiHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhoTong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhoTong.Designer.cs">
+      <DependentUpon>KhoTong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhuVuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhuVuc.Designer.cs">
+      <DependentUpon>KhuVuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuGiaoDichCuaKhachHang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LichSuGiaoDichCuaKhachHang.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuNhapKho.Designer.cs">
+      <DependentUpon>PhieuNhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuXuatKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuXuatKho.Designer.cs">
+      <DependentUpon>PhieuXuatKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="frmSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSanPham.Designer.cs">
+    <Compile Include="SanPhamTrongKhoTong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SanPhamTrongKhoTong.Designer.cs">
+      <DependentUpon>SanPhamTrongKhoTong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SanPhamTrongKhoTrong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SanPhamTrongKhoTrong.Designer.cs">
+      <DependentUpon>SanPhamTrongKhoTrong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TongSPTrongChiNhanh.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TongSPTrongChiNhanh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XepHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XepHang.Designer.cs">
+      <DependentUpon>XepHang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChiNhanh.resx">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSanPham.resx">
       <DependentUpon>frmSanPham.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="a.resx">
@@ -151,6 +222,25 @@
     <EmbeddedResource Include="frmSanPhamLoaiHang.resx">
       <DependentUpon>frmSanPhamLoaiHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhoTong.resx">
+      <DependentUpon>KhoTong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhuVuc.resx">
+      <DependentUpon>KhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSuGiaoDichCuaKhachHang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LichSuGiaoDichCuaKhachHang.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuNhapKho.resx">
+      <DependentUpon>PhieuNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuXuatKho.resx">
+      <DependentUpon>PhieuXuatKho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -162,6 +252,18 @@
     </Compile>
     <EmbeddedResource Include="frmSanPham.resx">
       <DependentUpon>frmSanPham.cs</DependentUpon>
+    <EmbeddedResource Include="SanPhamTrongKhoTong.resx">
+      <DependentUpon>SanPhamTrongKhoTong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SanPhamTrongKhoTrong.resx">
+      <DependentUpon>SanPhamTrongKhoTrong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TongSPTrongChiNhanh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TongSPTrongChiNhanh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XepHang.resx">
+      <DependentUpon>XepHang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -176,6 +278,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
