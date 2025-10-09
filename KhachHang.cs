@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace he_thong_dien_may
 {
-	public partial class Form1 : Form
-	{
-		public Form1()
-		{
-			InitializeComponent();
-		}
+    public partial class KhachHang : Form
+    {
+        public KhachHang()
+        {
+            InitializeComponent();
+        }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void RTKhachHangForm_Click(object sender, EventArgs e)
         {
 
         }
