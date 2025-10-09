@@ -36,11 +36,11 @@
 			this.quảnLíChiNhánhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.quảnLíKhuVựcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.bộPhậnSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.sảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.bộPhậnMarketingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.khuyếnMãiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.giámĐốcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.đăngXuátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.khuyếnMãiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.sảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.crownMenuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -58,7 +58,7 @@
 			this.hopeForm1.Name = "hopeForm1";
 			this.hopeForm1.Size = new System.Drawing.Size(932, 40);
 			this.hopeForm1.TabIndex = 0;
-			this.hopeForm1.Text = "hopeForm1";
+			this.hopeForm1.Text = "Main menu";
 			this.hopeForm1.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
 			// 
 			// crownMenuStrip1
@@ -96,7 +96,7 @@
 			this.hóaĐơnToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
 			this.hóaĐơnToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
 			this.hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
-			this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+			this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
 			this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
 			// 
 			// quảnLíChiNhánhToolStripMenuItem
@@ -125,6 +125,14 @@
 			this.bộPhậnSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
 			this.bộPhậnSảnPhẩmToolStripMenuItem.Text = "Bộ phận sản phẩm";
 			// 
+			// sảnPhẩmToolStripMenuItem
+			// 
+			this.sảnPhẩmToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+			this.sảnPhẩmToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+			this.sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
+			this.sảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+			this.sảnPhẩmToolStripMenuItem.Text = "Sản phẩm";
+			// 
 			// bộPhậnMarketingToolStripMenuItem
 			// 
 			this.bộPhậnMarketingToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
@@ -134,6 +142,14 @@
 			this.bộPhậnMarketingToolStripMenuItem.Name = "bộPhậnMarketingToolStripMenuItem";
 			this.bộPhậnMarketingToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
 			this.bộPhậnMarketingToolStripMenuItem.Text = "Bộ phận Marketing";
+			// 
+			// khuyếnMãiToolStripMenuItem
+			// 
+			this.khuyếnMãiToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+			this.khuyếnMãiToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+			this.khuyếnMãiToolStripMenuItem.Name = "khuyếnMãiToolStripMenuItem";
+			this.khuyếnMãiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+			this.khuyếnMãiToolStripMenuItem.Text = "Khuyến mãi";
 			// 
 			// giámĐốcToolStripMenuItem
 			// 
@@ -151,23 +167,7 @@
 			this.đăngXuátToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
 			this.đăngXuátToolStripMenuItem.Text = "Đăng xuát";
 			// 
-			// khuyếnMãiToolStripMenuItem
-			// 
-			this.khuyếnMãiToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-			this.khuyếnMãiToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-			this.khuyếnMãiToolStripMenuItem.Name = "khuyếnMãiToolStripMenuItem";
-			this.khuyếnMãiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-			this.khuyếnMãiToolStripMenuItem.Text = "Khuyến mãi";
-			// 
-			// sảnPhẩmToolStripMenuItem
-			// 
-			this.sảnPhẩmToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-			this.sảnPhẩmToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-			this.sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
-			this.sảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-			this.sảnPhẩmToolStripMenuItem.Text = "Sản phẩm";
-			// 
-			// a
+			// frmMainMenu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,7 +178,7 @@
 			this.IsMdiContainer = true;
 			this.MaximumSize = new System.Drawing.Size(1920, 1020);
 			this.MinimumSize = new System.Drawing.Size(190, 40);
-			this.Name = "a";
+			this.Name = "frmMainMenu";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "a";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

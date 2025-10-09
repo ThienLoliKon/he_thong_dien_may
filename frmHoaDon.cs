@@ -16,5 +16,9 @@ namespace he_thong_dien_may
 		{
 			InitializeComponent();
 		}
+
+		private void foreverForm1_Click(object sender, EventArgs e)
+		{
+		}
 	}
 }
