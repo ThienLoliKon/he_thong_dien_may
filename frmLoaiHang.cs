@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace he_thong_dien_may
 {
-	public partial class Form1 : Form
+	public partial class frmLoaiHang : Form
 	{
-		public Form1()
+		public frmLoaiHang()
 		{
 			InitializeComponent();
+		}
+
+		private void aloneTextBox1_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
